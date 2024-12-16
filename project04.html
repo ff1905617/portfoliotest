@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Francis Fitzgerald</title>
+</head>
+<body>
+    <!--topnav-->
+    <div class="topnav">
+        <div class="grid-container-nav">
+            <div class="grid-item"><a href="index.html"><h2>Francis Fitzgerald</h2></a></div>
+            <div class="grid-item"><a href="work.html"><button><p>Work</p></button></a></div>
+            <div class="grid-item"><a href="about.html"><button><p>About</p></button></a></div>
+            <div class="grid-item"><a href="contact.html"><button><p>Contact</p></button></a></div>
+            <div class="grid-item"><a href="images/fitzgerald_resume_2024.pdf" target="_blank"><button><p>Resume</p></button></a></div>
+        </div>
+    </div>
+
+    <!--CASE STUDY-->
+
+    <div class="content">
+
+        <div class="dissecting-title" id="top">           
+            <h2 style="margin-bottom: 12px;">Dissecting How You Feel</h2>
+            <hr style="width: 100%;">
+        </div>
+
+        <div style ="margin-top: 48px;" class="grid-container-dissecting">
+
+            <div class="grid-item">
+
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/Db7w02dYEJY?si=FVnxY9GglPaX1Bz-" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+            </div>
+
+            <div class="grid-item" style="margin-left: 72px;">
+                <div class="case-study-headings">
+                    <h4>Objective:</h4>
+                </div>
+
+                    <p>Survey Massart Students and determine their stress levels based on four metrics.</p>
+
+                    <br>
+
+                <div class="case-study-headings">
+                    <h4>Tools:</h4>
+                </div>
+
+                    <p>HTML, CSS and Javascript</p>
+
+                    <br>
+
+                <div class="case-study-headings">
+                    <h4>Role:</h4>
+                </div>
+
+                    <p>Data analyst, developer and video editor</p>
+            
+                    <br>
+
+                <div class="case-study-headings">
+                    <h4>Duration:</h4>
+                </div>
+
+                    <p>October 2024-December 2024</p>
+
+            </div>
+
+        </div>
+
+                <div class="case-study-headings">
+                    <h4>What's the story?</h4>
+                </div>
+    
+                <p>College can be stressful, especially when you're trying to balance commuting, work and getting the most out of your education.
+                I decided to create an interactive project to showcase the average stress levels of students at Massart. Each student's stress
+                level is based on a <b>stress score</b>. The higher the score, the more stressed they are. The stress score of each student or 
+                "subject" is calculated using the following four metrics:</p>
+
+                <ul>
+                    <li><b>Point one:</b> How many hours of sleep do you get a night?</li>
+                    <li><b>Point two:</b> Are you happy in your major? (1-10) </li>
+                    <li><b>Point three:</b> Financial stress (1-10)</li>
+                    <li><b>Point four:</b> Is Massart preparing you for the future?</li>
+                </ul>
+
+                <p>Because of the nature of the data, <b>point one</b> and <b>point two</b> are inverted so that <b>10 = 0</b> and <b>1 = 10</b>. 
+                Also, the answers <b>yes</b>, <b>no</b> and <b>maybe</b> are translated to <b>1</b>, <b>10</b> and <b>5</b> in order to quantify them.</p>
+
+                <p style="margin-top: 24px; margin-bottom: 24px;">(<b>p1</b> + <b>p2</b> + <b>p3</b> + <b>p4</b>) / 4 = <b>stress score</b>
+                </p>
+
+                <p>In the interactive data set, there are three states: <b>healthy</b>, <b>warning</b> and <b>danger</b>. Each state correlates to a 
+                stress score range:</p>
+
+                <ul>
+                    <li><b>1-4</b> Healthy</li>
+                    <li><b>5-7</b> Warning</li>
+                    <li><b>8-10</b> Danger</li>
+                </ul>
+
+                <p style="margin-top: 24px;">The user interacts with the data by clicking a subject on the list. Their correalting stress status and stats are displayed as well as a gif of a heart,
+                    also representing their score. <b>Check out the interactive project using the button below!</b>
+                </p>
+
+                <a href="https://ff1905617.github.io/dataviz/"><button  style="margin-top: 40px;">Interact</button></a>
+
+    <!--INITIAL DESCRIPTION-->
+
+                <div class="case-study-headings">
+                    <h4>The Process - Week One</h4>
+                </div>
+
+                <p>This project was a five week endeavor. It took several different forms over the course of my research before I eventually settled on my
+                    final concept and executed. During the first week, I started with a set of 21 questions. I walked around Massachusetts College of Art and
+                    Design, soliciting other students for interviews. After collecting my data, I sifted through it and found that the questions that interested
+                    me the most had to do with students' well-being anxieties because I could relate to them.
+                </p>
+
+                <ul>
+                    <li><b>1.</b> How many hours of sleep do you get a night?</li>
+                    <li><b>2.</b> Are you happy in your major? (1-10) </li>
+                    <li><b>3.</b> Financial stress (1-10)</li>
+                    <li><b>4.</b> Is Massart preparing you for the future?</li>
+                    <li><b>5.</b> Do you worry more about the past, present or future?</li>
+                </ul>
+
+                <img src="images/spreadsheet.png" width="1200px" height="400px">
+
+    <!--WEEK TWO-->
+
+                <div class="case-study-headings">
+                    <h4>Week Two</h4>
+                </div>
+                
+                <div class="grid-container-dissecting">
+
+                    <div class="grid-item">
+
+                        <p>During the second week of my research, I made a "bird's eye view" poster to organize my thinking. I created a visualization for the following question
+                            correllations: 
+                        </p>
+
+                        <ul>
+                            <li><b>Major size</b> and <b>happiness in major</b></li>
+                            <li><b>Is Massart preparing you for the future</b>, <b>Do you think about the past, present or future the most?</b> and <b>hours of sleep</b></li>
+                            <li><b>Financial stress (1-10)</b> and <b>Do you live on or off campus?</b></li>
+                        </ul>
+
+                        <img src="images/spreadsheet3.png" width="428.5px" height="679.5px">
+                        
+                    </div>
+
+                    <div class="grid-item" style="margin-left: 72px;">
+
+                        <img src="images/birdseyeview.png" width="600.5px" height="900.5">
+
+                    </div>
+
+                </div>
+
+    <!--WEEK THREE-->
+
+                <div class="case-study-headings">
+                    <h4>Week Three</h4>
+                </div>
+
+                <p>The third week of the project brought about some doubt regarding my concept. I wanted to try something new so I took a look
+                    at some of the other data in the collection. One of the survey questions was "Have you ever had a paranormal experience? 
+                    If so, what happened?" I took a look at the answers and was very intruiged. I decided to make an interactive collection of ghost 
+                    stories. The iteration took the shape of a digital deck of cards. Each card can be flipped over and has a ghost story on the back.
+                    The cards cycle infinitely and can be shuffled with the click of a button.</p>
+
+                    <a href="https://ff1905617.github.io/ghoststories/"><button style="margin-top: 40px; margin-bottom: 24px;">Interact</button></a>
+
+                    <iframe src="https://ff1905617.github.io/ghoststories/"></iframe>
+
+    <!--WEEK FOUR-->
+
+                <div style="margin-top: 24px;" class="case-study-headings">
+                    <h4>Week Four, Five & Six</h4>
+                </div>
+
+                <p>For the final weeks of the project, I ended up returning to my original concept. I thought it would be more important to bring to light
+                students' stress rather than to continue with my ghost story idea. While some stress is good, prolonged and intense stress can be harmful,
+                primarily to the heart. High blood pressure, irregular heartbeat and adrenaline spikes are all symptoms of chronic stress. Because of this, 
+                I wanted to pair my data with a visual of a human heart.</p>
+
+                <p style="margin-top: 16px;">In order to quantify the stress, I used the data and equation I cited at the beginning of the case study. This made it easy to assign
+                    different states to all of the subjects. In order to make the project interactive, I had to find a way to allow the user to click on a given 
+                    subject and have the data points and stress status display on the page. I used HTML data attributes to store hidden data in each div and display it 
+                    in panels 1-4 when clicked. I created Javascript constants for all of the data attributes and used an Event Listener to print each value from the data attributes
+                    in the DOM on click.
+                </p>
+                
+                <div class="grid-container-dissecting" style="margin-top: 24px;">
+
+                    <div class="grid-item">
+
+                    <div class="case-study-headings">
+                        <h4>Javascript</h4>
+                    </div>
+
+                        <textarea id="editor">const heartbeat = document.querySelector(".heartbeat");
+
+
+                            function firstHeart(){
+                                    document.getElementById("monitor").style.backgroundImage = "url(heart1.gif)";
+                                    document.querySelector("h3").innerHTML = 'HEALTHY';
+                                    heartbeat.classList.remove("animate-red");
+                                    heartbeat.classList.remove("animate-yellow");
+                            }
+                            function secondHeart(){
+                                document.getElementById("monitor").style.backgroundImage = "url(heart2.gif)";
+                                document.querySelector("h3").innerHTML = 'WARNING!';
+                                heartbeat.classList.add("animate-yellow");
+                                heartbeat.classList.remove("animate-red");
+                            }
+                            function thirdHeart(){
+                                    document.getElementById("monitor").style.backgroundImage = "url(heart3.gif)";
+                                    document.querySelector("h3").innerHTML = 'DANGER!';
+                                    heartbeat.classList.add("animate-red");
+                                    heartbeat.classList.remove("animate-yellow");
+                            }
+                            
+                            const clickDiv = document.querySelectorAll('.row');
+                            
+                            clickDiv.forEach(div => {
+                                    div.addEventListener('click', function() {
+                            
+                                    const sleep = div.getAttribute('data-sleep');
+                                    const major = div.getAttribute('data-major');
+                                    const finance = div.getAttribute('data-finance');
+                                    const future = div.getAttribute('data-future');
+                                    
+                            
+                                    document.getElementById('result-one').innerText = sleep;
+                                    document.getElementById('result-two').innerText = major;
+                                    document.getElementById('result-three').innerText = finance;
+                                    document.getElementById('result-four').innerText = future;
+                                    });
+                            });</textarea>
+                        
+                    </div>
+
+                    <div class="grid-item">
+                        
+                        <div class="case-study-headings">
+                            <h4>HTML Data attributes</h4>
+                        </div>
+
+
+                    <textarea id="editor">
+&lt;div class="row" data-sleep="6" data-major="1" data-finance="6" data-future="Yes" onclick="thirdHeart()"&gt;
+
+    &lt;div class="row-item"&gt;
+        &lt;p&gt;Subject 1&lt;/p&gt;
+    &lt;/div&gt;
+                    
+    &lt;div class="row-item"&gt;
+        &lt;p&gt;19&gt;/p&gt;
+    &lt;/div &gt;
+                    
+    &lt;div class="row-item"&gt;
+        &lt;p&gt;Animation&gt;/p&gt;
+    &lt;/div&gt;
+
+    &lt;div class="row-item"&gt;
+        &lt;p&gt;On Campus&lt;/p&gt;
+    &lt;/div&gt;
+
+&lt;/div&gt;
+                    </textarea>
+
+                    </div>
+
+                </div>
+   
+    </div>
+       
+    </div>
+    
+</body>
+</html>
